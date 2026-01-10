@@ -60,14 +60,8 @@ The environment was intentionally exposed to the internet to observe attacker be
 .
 ├── README.md
 ├── screenshots/
-│   ├── 01-geo-map.png
-│   ├── 02-credential-spraying.png
-│   ├── 03-account-targeting.png
-│   └── raw/
-├── kql/
-│   ├── failed-logons.kql
-│   ├── credential-spraying.kql
-│   ├── account-correlation.kql
-│   └── post-auth-validation.kql
-└── notes/
-    └── investigation-notes.md
+├── analysis/
+│   ├── findings.md
+│   ├── kql-queries.md
+│   └── methodology.md
+
